@@ -35,17 +35,76 @@ A VPN creates a secure, encrypted tunnel over the Internet, allowing remote user
 <h2>Tools and Utilities Used</h2>
 
 - <b>VLANs</b> 
+
 - <b>DTP</b>
+
 - <b>HSRP</b>
+
 - <b>OSPF</b>
+
 - <b>NAT</b>
+
 - <b> Command Prompt (CMD)</b>
 
 <h2>Environments Used </h2>
 
 - <b>Windows 11</b> 
+
 - <b>Cisco Packet Tracer </b>
 
-
 <h2>Network diagram</h2>
+
+![Project Diagram](https://github.com/user-attachments/assets/f88fe7e5-24d9-44e8-be84-46c382ddc9d3)
+
+
+<h2>Program walk-through:</h2>
+
+<b>Open Cisco Packet Tracer </b>
+
+<b> Devices Used <b>
+
+- <b> 6 PCs (End-user devices)<b>
+- <b> 3 Layer 2 Switches (Access Layer)<b>
+- <b> 2 Layer 3 Swiches (HSRP and routing)<b>
+- <b> Core & Branch Router (GRE tunnel shown between core router an branch)<b>
+- <b> Branch Router (Remote office with servers)<b>
+- <b> 1 Internet Cloud (Simulated WAN)<b>
+- <b> Various Service Devices (HTTP, TFTP, FTP servers)<b>
+- <b> Crossover and straight-through cables were used to connect the devices<b>
+
+<b> End Devices (PCs) and VLANs<b>
+
+<b> Each group of PCs is isolated logically using VLANs to segment traffic and improve security/performance <b>
+
+🟦 VLAN 10 (Light Blue box)
+ - <b> Connected Devices: PC1, PC2<b>
+ - <b> VLAN ID: 10<b>
+ - <b> Subnet: 192.168.10.0/24<b>
+ - <b> Default Gateway: 192.168.10.100 (HSRP virtual IP))<b>
+ 
+🟪 VLAN 20 (Purple box)
+ - <b> Connected Devices: PC1, PC2<b>
+ - <b> VLAN ID: 10<b>
+ - <b> Subnet: 192.168.10.0/24<b>
+ - <b> Default Gateway: 192.168.10.100 (HSRP virtual IP))<b>
+ 
+🟩 VLAN 30 (Green box)
+ -  <b> Connected Devices: PC5, PC6<b>
+ - <b> VLAN ID: 30<b>
+ - <b> Subnet: 192.168.30.0/24<b>
+ - <b> Default Gateway: 192.168.30.100 (HSRP virtual IP))<b>
+
+<b> Layer 2 Switches (Access Switches)<b>
+
+ - <b> Three switches, each handling a single VLAN<b>
+ - <b> Switch 1 handles VLAN 10 (PC1, PC2)<b>
+ - <b> Switch 2 handles VLAN 20 (PC3, PC4)<b>
+ - <b>Switch 3 handles VLAN 30 (PC5, PC6))<b>
+
+	<h2>End Devices (PCs) and VLANs diagram<b/h2>
+ 
+![Project Diagram](https://github.com/user-attachments/assets/f01c3c70-cf1b-474a-9f35-d01e02f16da4)
+
+ 
+
 
