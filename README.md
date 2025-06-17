@@ -100,6 +100,39 @@ A VPN creates a secure, encrypted tunnel over the Internet, allowing remote user
  
 ![Project Diagram](https://github.com/user-attachments/assets/f01c3c70-cf1b-474a-9f35-d01e02f16da4)
 
+ <b>Switches/Routers with HSRP (Active/Standby)<b>
  
+🔹 Router/Switch 1 (left): Active-Interface IPs
+
+ - <b> 192.168.10.1<b>
+ - <b> 192.168.10.1<b>
+ - <b> 192.168.10.1<b>
+ - <b> Participates in HSRP group for each VLAN<b>
+ - <b> Handles default gateway duties under normal operation<b>
+
+🔹 Router/Switch 2 ( Right): Standby-Interface IPs
+
+ - <b> 192.168.10.2<b>
+ - <b> 192.168.10.2<b>
+ - <b> 192.168.10.2<b>
+ - <b> Participates in HSRP group for each VLAN<b>
+ - <b> Becomes active if Router/Switch 1 fails<b>
+
+🔹 Virtual IPs via HSRP
+
+ - <b> VLAN 10 Gateway: 192.168.10.100<b>
+ - <b> VLAN 20 Gateway: 192.168.20.100<b>
+ - <b> VLAN 30 Gateway: 192.168.30.100<b>
+ 
+ <b>Purpose: Provides redundancy. If the Active router fails, the Standby takes over seamlessly for all VLANs<b>
+                                                                                                           
+<b>Note: used trunking tchnoligy becaeuse Implemented trunking technology to connect three Layer 2 switches with two Layer 3 switches/routers, enabling the transmission of traffic from multiple VLANs over single physical links between devices. This optimized network efficiency and maintained VLAN segmentation across the infrastructure<b>
+
+<b>Switches/Routers with HSRP (Active/Standby) Diagram<b>
+
+
+
+<img width="383" alt="2 switches" src="https://github.com/user-attachments/assets/b4477b62-1cd9-494f-9a68-3c8a681ab7ce" />
+
 
 
