@@ -126,13 +126,50 @@ A VPN creates a secure, encrypted tunnel over the Internet, allowing remote user
  
  <b>Purpose: Provides redundancy. If the Active router fails, the Standby takes over seamlessly for all VLANs<b>
                                                                                                            
-<b>Note: Used trunking technology to connect three Layer 2 switches with two Layer 3 switches/routers, enabling the transmission of traffic from multiple VLANs over single physical links between devices. This approach optimized network efficiency and preserved VLAN segmentation throughout the infrastructure.<b>
+<b>Note: Used trunking technology to connect three Layer 2 switches with two Layer 3 switches/routers, enabling the transmission of traffic from multiple VLANs over single physical links between devices. This approach optimized network efficiency and preserved VLAN segmentation throughout the infrastructure<b>
 
 <b>Switches/Routers with HSRP (Active/Standby) Diagram<b>
 
 
 
 <img width="383" alt="2 switches" src="https://github.com/user-attachments/assets/b4477b62-1cd9-494f-9a68-3c8a681ab7ce" />
+
+
+
+<b>GRE Tunnel & WAN Connectivity<b>
+
+<b>A GRE Tunnel is configured between the core router and the branch router to simulate secure inter-site communication. This tunnel allows VLAN hosts to:<b>
+
+ - <b>Reach the Branch Network 10.1.1.0/24<b>
+ - <b>Access remote services (HTTP, FTP, TFTP)<b>
+ 
+ 🔹 GRE Tunnel
+
+  GRE Tunnel Interface:
+
+ - <b>From Core Router → Branch Router<b>
+ - <b>GRE Tunnel IPs:<b>
+ - <b>Core side: 172.16.1.1<b>
+ - <b>Branch side: 172.16.1.2<b>
+ - <b>Tunnel passes over:<b>
+ - <b>Serial link: Se0/0/0 from Core → Se0/0/0 on Internet (8.8.8.8) → to Branch<b>
+	
+<b>Purpose: Allows internal traffic from VLAN PCs to reach the remote branch securely as if on the same internal network<b>
+
+ 🔹Internet Simulation
+ 
+ - <b>A generic “Internet” device connects:<b>
+ - <b>Core router (Se0/0/0: 100.1.1.1)<b>
+ - <b>Branch router (Se0/0/1: 101.1.1.2)<b>
+ - <b>Simulates WAN communication between main site and branch<b>
+
+🔹Branch Office
+
+  Branch Router:
+
+ - <b>External IP: 101.1.1.1<b>
+ - <b>Internal Interface: Gig0/1<b>
+ - <b>LAN Subnet: 10.1.1.0/24<b>
 
 
 
