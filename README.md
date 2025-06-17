@@ -35,21 +35,15 @@ A VPN creates a secure, encrypted tunnel over the Internet, allowing remote user
 <h2>Tools and Utilities Used</h2>
 
 - <b>VLANs</b> 
-
 - <b>DTP</b>
-
 - <b>HSRP</b>
-
 - <b>OSPF</b>
-
 - <b>NAT</b>
-
 - <b> Command Prompt (CMD)</b>
 
 <h2>Environments Used </h2>
 
 - <b>Windows 11</b> 
-
 - <b>Cisco Packet Tracer </b>
 
 <h2>Network diagram</h2>
@@ -100,8 +94,9 @@ A VPN creates a secure, encrypted tunnel over the Internet, allowing remote user
  - <b> Switch 1 handles VLAN 10 (PC1, PC2)<b>
  - <b> Switch 2 handles VLAN 20 (PC3, PC4)<b>
  - <b>Switch 3 handles VLAN 30 (PC5, PC6))<b>
+ 
+<b>End Devices (PCs) and VLANs diagram<b>
 
-	<h2>End Devices (PCs) and VLANs diagram<b/h2>
  
 ![Project Diagram](https://github.com/user-attachments/assets/f01c3c70-cf1b-474a-9f35-d01e02f16da4)
 
