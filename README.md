@@ -126,7 +126,7 @@ A VPN creates a secure, encrypted tunnel over the Internet, allowing remote user
  
  <b>Purpose: Provides redundancy. If the Active router fails, the Standby takes over seamlessly for all VLANs<b>
                                                                                                            
-<b>Note: used trunking tchnoligy becaeuse Implemented trunking technology to connect three Layer 2 switches with two Layer 3 switches/routers, enabling the transmission of traffic from multiple VLANs over single physical links between devices. This optimized network efficiency and maintained VLAN segmentation across the infrastructure<b>
+<b>Note: Used trunking technology to connect three Layer 2 switches with two Layer 3 switches/routers, enabling the transmission of traffic from multiple VLANs over single physical links between devices. This approach optimized network efficiency and preserved VLAN segmentation throughout the infrastructure.<b>
 
 <b>Switches/Routers with HSRP (Active/Standby) Diagram<b>
 
