@@ -124,8 +124,9 @@ Example: A remote employee uses a VPN to securely connect to their company’s i
 <b>Switches/Routers with HSRP (Active/Standby) Diagram<b>
 
 
+<img width="567" alt="2 Switches" src="https://github.com/user-attachments/assets/c308e03d-64a1-4f67-8319-76327665ecc4" />
 
-<img width="383" alt="2 switches" src="https://github.com/user-attachments/assets/b4477b62-1cd9-494f-9a68-3c8a681ab7ce" />
+
 
 
 
@@ -166,7 +167,8 @@ Example: A remote employee uses a VPN to securely connect to their company’s i
 
 <b>GRE Tunnel & WAN Diagram<b>
 
-<img width="540" alt="Router" src="https://github.com/user-attachments/assets/74b76a36-1aa0-4318-9ed3-f5c934769afe" />
+<img width="804" alt="Routers" src="https://github.com/user-attachments/assets/8943e299-d88f-43b6-94bb-b3b36acd17d6" />
+
 
 
 <b>Branch Switch<b>
@@ -178,7 +180,8 @@ Example: A remote employee uses a VPN to securely connect to their company’s i
 <b>Branch Switch Diagram<b>
 
 
-<img width="212" alt="servers" src="https://github.com/user-attachments/assets/9118ecbc-e0da-436b-b465-6c97da20169d" />
+<img width="333" alt="Servers" src="https://github.com/user-attachments/assets/465c065f-9ef2-40ff-8fbf-8c013c8fdd9c" />
+
 
 
 
