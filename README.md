@@ -185,6 +185,96 @@ Example: A remote employee uses a VPN to securely connect to their company’s i
 
 
 
-<b>Network Configuration Verification Diagram<b>
+
+
+
+
+<b>Core Router – Network Configuration Verification Screenshots<b>
+
+
+
+- <b>The core router performs server ping and IP route verification<b>
+
+
+
+<img width="569" alt="coure router 2" src="https://github.com/user-attachments/assets/f740b94b-3294-4b4c-b8e9-063c784b2ef1" />
+
+
+
+- <b>Core Router – Tunnel Interface and VLAN Connectivity Verification<b>
+
+
+<img width="595" alt="show ip core router" src="https://github.com/user-attachments/assets/84e2ae9b-968d-404c-996a-bf1102717fcb" />
+
+
+
+
+<img width="963" alt="tunnel111" src="https://github.com/user-attachments/assets/73779190-2719-4c63-8285-51b6dcf4f9ca" />
+
+
+
+
+- <b>Verify the core router's configuration using the show running-config command<b>
+
+
+<img width="1033" alt="corerouter config1 " src="https://github.com/user-attachments/assets/bd5c4fee-8d32-4002-8a45-9393ee5c881f" />
+
+
+
+
+<img width="583" alt="show runnign config core router" src="https://github.com/user-attachments/assets/9331cec3-17c3-47bb-bf73-5715da2ec268" />
+
+
+
+
+<b>Branch Router – Network Configuration Verification Screenshots<b>
+
+
+
+- <b>Branch Router – Running-Config, IP Route, and Interface Verification<B>
+
+
+
+
+<img width="631" alt="branch 1" src="https://github.com/user-attachments/assets/d6b1dfee-c752-4819-80fa-4616ce328d45" />
+
+
+
+
+<img width="649" alt="branch router 2" src="https://github.com/user-attachments/assets/9b980693-d294-452a-81f1-1f45272fce5a" />
+
+
+
+
+<img width="640" alt="branch router 3" src="https://github.com/user-attachments/assets/dc973978-025a-436c-bafe-534ddf766ccf" />
+
+
+
+
+-<b>Branch Router – Verification of Running-Config, IP Routes, Interfaces, Pings, and Tunnel<b>
+
+
+
+
+<img width="466" alt="branch1 ts" src="https://github.com/user-attachments/assets/fead170b-a85c-4584-b47b-7134c7efc064" />
+
+
+
+
+
+<img width="1014" alt="ping brouter" src="https://github.com/user-attachments/assets/79ed4908-108c-4d80-89e4-c50d0eb8ae8c" />
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
