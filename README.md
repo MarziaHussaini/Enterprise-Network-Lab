@@ -164,7 +164,7 @@ For example, when two Cisco switches are connected, DTP can automatically establ
 
 
 <b>Branch Switch<b>
- - <b>Connects three services:<b>
+
  - <b>HTTP Server: 10.1.1.30<b>
  - <b>TFTP Server: 10.1.1.20<b>
  - <b>FTP Server: 10.1.1.10<b>
@@ -173,9 +173,6 @@ For example, when two Cisco switches are connected, DTP can automatically establ
 
 
 <img width="333" alt="Servers" src="https://github.com/user-attachments/assets/465c065f-9ef2-40ff-8fbf-8c013c8fdd9c" />
-
-
-
 
 
 
