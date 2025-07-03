@@ -62,9 +62,9 @@ VLAN 10
  - <b> Default Gateway: 192.168.10.100 (HSRP virtual IP))<b>
  
 VLAN 20 
- - <b> Connected Devices: PC1, PC2<b>
+ - <b> Connected Devices: PC3, PC4<b>
  - <b> VLAN ID: 10<b>
- - <b> Subnet: 192.168.10.0/24<b>
+ - <b> Subnet: 192.168.20.0/24<b>
  - <b> Default Gateway: 192.168.10.100 (HSRP virtual IP))<b>
  
 VLAN 30 
