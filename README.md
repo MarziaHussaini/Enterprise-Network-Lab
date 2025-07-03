@@ -55,19 +55,19 @@ For example, when two Cisco switches are connected, DTP can automatically establ
 
 <b> Each group of PCs is isolated logically using VLANs to segment traffic and improve security/performance <b>
 
-🟦 VLAN 10 (Light Blue box)
+🟦 VLAN 10 
  - <b> Connected Devices: PC1, PC2<b>
  - <b> VLAN ID: 10<b>
  - <b> Subnet: 192.168.10.0/24<b>
  - <b> Default Gateway: 192.168.10.100 (HSRP virtual IP))<b>
  
-🟪 VLAN 20 (Purple box)
+🟪 VLAN 20 
  - <b> Connected Devices: PC1, PC2<b>
  - <b> VLAN ID: 10<b>
  - <b> Subnet: 192.168.10.0/24<b>
  - <b> Default Gateway: 192.168.10.100 (HSRP virtual IP))<b>
  
-🟩 VLAN 30 (Green box)
+🟩 VLAN 30 
  -  <b> Connected Devices: PC5, PC6<b>
  - <b> VLAN ID: 30<b>
  - <b> Subnet: 192.168.30.0/24<b>
