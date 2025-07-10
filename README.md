@@ -1,4 +1,4 @@
-<h1>Enterprise-Network-Lab</h1>
+<h1>Network-Configuration</h1>
 
 <h2>Description</h2>
 
